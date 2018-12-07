@@ -1,0 +1,69 @@
+@charset "utf-8";
+@import url("mclibre-pie.css");
+
+body {
+    background-color: hsl(200, 2%, 64%);
+    font-family: sans-serif;
+    }
+    
+    h1 {
+        font-size: 3rem;
+        text-align: center;
+        text-decoration: underline;
+        text-transform: uppercase;
+        color:rgb(41, 41, 37) ;
+        }
+    h2{
+    font-size: 30px;
+    border-top:rgb(75, 84, 88) 3px solid;
+    border-bottom:rgb(75, 84, 88) 3px solid;
+    background-color:rgb(75, 84, 88);
+    color:rgb(39, 51, 54);
+    text-decoration: underline;
+    }  
+    h3{
+        font-size:20px;
+        border-top:rgb(75, 84, 88) 3px solid;
+        border-bottom:rgb(75, 84, 88) 3px solid;
+        background-color:rgb(75, 84, 88);
+        color:rgb(39, 51, 54);
+    }
+
+     .pie{
+         background-color: white;
+        font-weight: bold;
+        text-align: right;
+        font-size: 25px;
+      }
+    .pielink {
+        all: initial;
+        clear: both;
+        position: fixed;
+        bottom: 0;
+        height: 1.5rem;
+        left: 0;
+        width: 100%;
+        border-top: black 2px solid;
+        margin: 0;
+        padding: 0.25em 0 0.25em;
+        background-color: white;
+        color: black;
+        font-family: sans-serif;
+        font-size: 0.8rem;
+        text-align: center;
+    }
+    
+    p {
+    background-color: hsl(199, 23%, 63%);
+    }
+    em {
+    color: hsl(200, 100%, 40%);
+    font-style: normal;
+    font-weight: bold;
+    }
+    strong {
+        color: hsl(200, 100%, 30%);
+        font-weight: normal;
+    }
+      
+      
